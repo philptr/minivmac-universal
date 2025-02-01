@@ -1,0 +1,3 @@
+[submodule "Submodules/minivmac"]
+	path = Submodules/minivmac
+	url = https://github.com/minivmac/minivmac

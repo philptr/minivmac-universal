@@ -1,0 +1,2316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A2BD1A42D4EB7CA00EBF5B6 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2BD1A32D4EB7CA00EBF5B6 /* ArgumentParser */; };
+		4A2BD1ED2D4EBA6F00EBF5B6 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */; };
+		4A2BD1EE2D4EBA6F00EBF5B6 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */; };
+		4A2BD1EF2D4EBA6F00EBF5B6 /* KBRDEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */; };
+		4A2BD1F02D4EBA6F00EBF5B6 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */; };
+		4A2BD1F12D4EBA6F00EBF5B6 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */; };
+		4A2BD1F22D4EBA6F00EBF5B6 /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */; };
+		4A2BD1F32D4EBA6F00EBF5B6 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */; };
+		4A2BD1F42D4EBA6F00EBF5B6 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */; };
+		4A2BD1F52D4EBA6F00EBF5B6 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */; };
+		4A2BD1F62D4EBA6F00EBF5B6 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */; };
+		4A2BD1F72D4EBA6F00EBF5B6 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */; };
+		4A2BD1F82D4EBA6F00EBF5B6 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */; };
+		4A2BD1F92D4EBA6F00EBF5B6 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */; };
+		4A2BD1FA2D4EBA6F00EBF5B6 /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */; };
+		4A2BD1FB2D4EBA6F00EBF5B6 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */; };
+		4A2BD25F2D4EBDCA00EBF5B6 /* Macintosh SE.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BD2012D4EBA6F00EBF5B6 /* Macintosh SE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A2BD2B42D4EC99400EBF5B6 /* CNFUDALL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD29D2D4EC98C00EBF5B6 /* CNFUDALL.h */; };
+		4A2BD2B52D4EC99700EBF5B6 /* CNFUDOSG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD29E2D4EC98C00EBF5B6 /* CNFUDOSG.h */; };
+		4A2BD2B62D4EC99900EBF5B6 /* CNFUDPIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD29F2D4EC98C00EBF5B6 /* CNFUDPIC.h */; };
+		4A2BD2B72D4ED01A00EBF5B6 /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */; };
+		4A2BD2BE2D4ED37000EBF5B6 /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */; };
+		4A2BD2BF2D4ED37000EBF5B6 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */; };
+		4A2BD2C02D4ED37000EBF5B6 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */; };
+		4A2BD2C12D4ED37000EBF5B6 /* KBRDEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */; };
+		4A2BD2C22D4ED37000EBF5B6 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */; };
+		4A2BD2C32D4ED37000EBF5B6 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */; };
+		4A2BD2C42D4ED37000EBF5B6 /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */; };
+		4A2BD2C52D4ED37000EBF5B6 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */; };
+		4A2BD2C62D4ED37000EBF5B6 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */; };
+		4A2BD2C72D4ED37000EBF5B6 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */; };
+		4A2BD2C82D4ED37000EBF5B6 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */; };
+		4A2BD2C92D4ED37000EBF5B6 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */; };
+		4A2BD2CA2D4ED37000EBF5B6 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */; };
+		4A2BD2CB2D4ED37000EBF5B6 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */; };
+		4A2BD2CC2D4ED37000EBF5B6 /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */; };
+		4A2BD2CD2D4ED37000EBF5B6 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */; };
+		4A2BD2D72D4ED38C00EBF5B6 /* CNFUDALL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2712D4EC98C00EBF5B6 /* CNFUDALL.h */; };
+		4A2BD2D82D4ED38D00EBF5B6 /* CNFUDOSG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2722D4EC98C00EBF5B6 /* CNFUDOSG.h */; };
+		4A2BD2D92D4ED38F00EBF5B6 /* CNFUDPIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2732D4EC98C00EBF5B6 /* CNFUDPIC.h */; };
+		4A2BD2E12D4ED39C00EBF5B6 /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */; };
+		4A2BD2E22D4ED39C00EBF5B6 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */; };
+		4A2BD2E32D4ED39C00EBF5B6 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */; };
+		4A2BD2E42D4ED39C00EBF5B6 /* KBRDEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */; };
+		4A2BD2E52D4ED39C00EBF5B6 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */; };
+		4A2BD2E62D4ED39C00EBF5B6 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */; };
+		4A2BD2E72D4ED39C00EBF5B6 /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */; };
+		4A2BD2E82D4ED39C00EBF5B6 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */; };
+		4A2BD2E92D4ED39C00EBF5B6 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */; };
+		4A2BD2EA2D4ED39C00EBF5B6 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */; };
+		4A2BD2EB2D4ED39C00EBF5B6 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */; };
+		4A2BD2EC2D4ED39C00EBF5B6 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */; };
+		4A2BD2ED2D4ED39C00EBF5B6 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */; };
+		4A2BD2EE2D4ED39C00EBF5B6 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */; };
+		4A2BD2EF2D4ED39C00EBF5B6 /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */; };
+		4A2BD2F02D4ED39C00EBF5B6 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */; };
+		4A2BD2F82D4ED3AF00EBF5B6 /* CNFUDALL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD27C2D4EC98C00EBF5B6 /* CNFUDALL.h */; };
+		4A2BD2F92D4ED3B100EBF5B6 /* CNFUDOSG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD27D2D4EC98C00EBF5B6 /* CNFUDOSG.h */; };
+		4A2BD2FA2D4ED3B300EBF5B6 /* CNFUDPIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD27E2D4EC98C00EBF5B6 /* CNFUDPIC.h */; };
+		4A2BD3042D4ED3C300EBF5B6 /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */; };
+		4A2BD3052D4ED3C300EBF5B6 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */; };
+		4A2BD3062D4ED3C300EBF5B6 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */; };
+		4A2BD3072D4ED3C300EBF5B6 /* KBRDEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */; };
+		4A2BD3082D4ED3C300EBF5B6 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */; };
+		4A2BD3092D4ED3C300EBF5B6 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */; };
+		4A2BD30A2D4ED3C300EBF5B6 /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */; };
+		4A2BD30B2D4ED3C300EBF5B6 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */; };
+		4A2BD30C2D4ED3C300EBF5B6 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */; };
+		4A2BD30D2D4ED3C300EBF5B6 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */; };
+		4A2BD30E2D4ED3C300EBF5B6 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */; };
+		4A2BD30F2D4ED3C300EBF5B6 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */; };
+		4A2BD3102D4ED3C300EBF5B6 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */; };
+		4A2BD3112D4ED3C300EBF5B6 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */; };
+		4A2BD3122D4ED3C300EBF5B6 /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */; };
+		4A2BD3132D4ED3C300EBF5B6 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */; };
+		4A2BD31D2D4ED3D400EBF5B6 /* CNFUDALL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2872D4EC98C00EBF5B6 /* CNFUDALL.h */; };
+		4A2BD31E2D4ED3D600EBF5B6 /* CNFUDOSG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2882D4EC98C00EBF5B6 /* CNFUDOSG.h */; };
+		4A2BD31F2D4ED3D800EBF5B6 /* CNFUDPIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2892D4EC98C00EBF5B6 /* CNFUDPIC.h */; };
+		4A2BD3262D4ED3F700EBF5B6 /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */; };
+		4A2BD3272D4ED3F700EBF5B6 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */; };
+		4A2BD3282D4ED3F700EBF5B6 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */; };
+		4A2BD3292D4ED3F700EBF5B6 /* KBRDEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */; };
+		4A2BD32A2D4ED3F700EBF5B6 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */; };
+		4A2BD32B2D4ED3F700EBF5B6 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */; };
+		4A2BD32C2D4ED3F700EBF5B6 /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */; };
+		4A2BD32D2D4ED3F700EBF5B6 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */; };
+		4A2BD32E2D4ED3F700EBF5B6 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */; };
+		4A2BD32F2D4ED3F700EBF5B6 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */; };
+		4A2BD3302D4ED3F700EBF5B6 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */; };
+		4A2BD3312D4ED3F700EBF5B6 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */; };
+		4A2BD3322D4ED3F700EBF5B6 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */; };
+		4A2BD3332D4ED3F700EBF5B6 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */; };
+		4A2BD3342D4ED3F700EBF5B6 /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */; };
+		4A2BD3352D4ED3F700EBF5B6 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */; };
+		4A2BD33D2D4ED40F00EBF5B6 /* CNFUDALL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2922D4EC98C00EBF5B6 /* CNFUDALL.h */; };
+		4A2BD33E2D4ED41000EBF5B6 /* CNFUDOSG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2932D4EC98C00EBF5B6 /* CNFUDOSG.h */; };
+		4A2BD33F2D4ED41200EBF5B6 /* CNFUDPIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2942D4EC98C00EBF5B6 /* CNFUDPIC.h */; };
+		4A2BD3482D4ED41E00EBF5B6 /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */; };
+		4A2BD3492D4ED41E00EBF5B6 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */; };
+		4A2BD34A2D4ED41E00EBF5B6 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */; };
+		4A2BD34B2D4ED41E00EBF5B6 /* KBRDEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */; };
+		4A2BD34C2D4ED41E00EBF5B6 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */; };
+		4A2BD34D2D4ED41E00EBF5B6 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */; };
+		4A2BD34E2D4ED41E00EBF5B6 /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */; };
+		4A2BD34F2D4ED41E00EBF5B6 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */; };
+		4A2BD3502D4ED41E00EBF5B6 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */; };
+		4A2BD3512D4ED41E00EBF5B6 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */; };
+		4A2BD3522D4ED41E00EBF5B6 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */; };
+		4A2BD3532D4ED41E00EBF5B6 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */; };
+		4A2BD3542D4ED41E00EBF5B6 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */; };
+		4A2BD3552D4ED41E00EBF5B6 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */; };
+		4A2BD3562D4ED41E00EBF5B6 /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */; };
+		4A2BD3572D4ED41E00EBF5B6 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */; };
+		4A2BD35F2D4ED43400EBF5B6 /* CNFUDALL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2A82D4EC98C00EBF5B6 /* CNFUDALL.h */; };
+		4A2BD3602D4ED43500EBF5B6 /* CNFUDOSG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2A92D4EC98C00EBF5B6 /* CNFUDOSG.h */; };
+		4A2BD3612D4ED43700EBF5B6 /* CNFUDPIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD2AA2D4EC98C00EBF5B6 /* CNFUDPIC.h */; };
+		4A2BD3642D4ED47300EBF5B6 /* Macintosh 128K.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BD2D32D4ED37000EBF5B6 /* Macintosh 128K.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A2BD3652D4ED47300EBF5B6 /* Macintosh Classic.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BD2F62D4ED39C00EBF5B6 /* Macintosh Classic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A2BD3672D4ED47300EBF5B6 /* Macintosh Plus.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BD33B2D4ED3F700EBF5B6 /* Macintosh Plus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A2BD3682D4ED47300EBF5B6 /* Macintosh SE FDHD.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BD35D2D4ED41E00EBF5B6 /* Macintosh SE FDHD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A2BD3692D4ED48800EBF5B6 /* Macintosh II.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BD3192D4ED3C300EBF5B6 /* Macintosh II.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A2BD36B2D4ED4D100EBF5B6 /* ASCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD06C2D4DEC5600EBF5B6 /* ASCEMDEV.c */; };
+		4A2BD36C2D4ED4DE00EBF5B6 /* VIDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C52D4DEC5600EBF5B6 /* VIDEMDEV.c */; };
+		4A2BD36D2D4ED4EE00EBF5B6 /* VIA2EMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C12D4DEC5600EBF5B6 /* VIA2EMDV.c */; };
+		4A2BD4362D4EFCA700EBF5B6 /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */; };
+		4A2BD4372D4EFCA700EBF5B6 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */; };
+		4A2BD4382D4EFCA700EBF5B6 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */; };
+		4A2BD4392D4EFCA700EBF5B6 /* KBRDEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */; };
+		4A2BD43A2D4EFCA700EBF5B6 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */; };
+		4A2BD43B2D4EFCA700EBF5B6 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */; };
+		4A2BD43C2D4EFCA700EBF5B6 /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */; };
+		4A2BD43D2D4EFCA700EBF5B6 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */; };
+		4A2BD43E2D4EFCA700EBF5B6 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */; };
+		4A2BD43F2D4EFCA700EBF5B6 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */; };
+		4A2BD4402D4EFCA700EBF5B6 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */; };
+		4A2BD4412D4EFCA700EBF5B6 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */; };
+		4A2BD4422D4EFCA700EBF5B6 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */; };
+		4A2BD4432D4EFCA700EBF5B6 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */; };
+		4A2BD4442D4EFCA700EBF5B6 /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */; };
+		4A2BD4452D4EFCA700EBF5B6 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */; };
+		4A2BD4582D4EFCC800EBF5B6 /* CNFUDALL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD44D2D4EFCC000EBF5B6 /* CNFUDALL.h */; };
+		4A2BD4592D4EFCCA00EBF5B6 /* CNFUDOSG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD44E2D4EFCC000EBF5B6 /* CNFUDOSG.h */; };
+		4A2BD45A2D4EFCCC00EBF5B6 /* CNFUDPIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BD44F2D4EFCC000EBF5B6 /* CNFUDPIC.h */; };
+		4A2BD45D2D4EFCD900EBF5B6 /* Macintosh 512Ke.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BD44B2D4EFCA700EBF5B6 /* Macintosh 512Ke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A2BD25A2D4EBDC000EBF5B6 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A2BD45D2D4EFCD900EBF5B6 /* Macintosh 512Ke.framework in Copy Frameworks */,
+				4A2BD3692D4ED48800EBF5B6 /* Macintosh II.framework in Copy Frameworks */,
+				4A2BD3642D4ED47300EBF5B6 /* Macintosh 128K.framework in Copy Frameworks */,
+				4A2BD3652D4ED47300EBF5B6 /* Macintosh Classic.framework in Copy Frameworks */,
+				4A2BD3672D4ED47300EBF5B6 /* Macintosh Plus.framework in Copy Frameworks */,
+				4A2BD3682D4ED47300EBF5B6 /* Macintosh SE FDHD.framework in Copy Frameworks */,
+				4A2BD25F2D4EBDCA00EBF5B6 /* Macintosh SE.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A2BCE142D4DEA9100EBF5B6 /* Mini vMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini vMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BD03D2D4DEC5600EBF5B6 /* mydriver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mydriver.a; sourceTree = "<group>"; };
+		4A2BD03E2D4DEC5600EBF5B6 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		4A2BD0402D4DEC5600EBF5B6 /* firmware.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = firmware.a; sourceTree = "<group>"; };
+		4A2BD0432D4DEC5600EBF5B6 /* trans.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = trans.txt; sourceTree = "<group>"; };
+		4A2BD0452D4DEC5600EBF5B6 /* BLDUTIL3.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = BLDUTIL3.i; sourceTree = "<group>"; };
+		4A2BD0462D4DEC5600EBF5B6 /* BLDUTIL4.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = BLDUTIL4.i; sourceTree = "<group>"; };
+		4A2BD0472D4DEC5600EBF5B6 /* CMDARGT1.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = CMDARGT1.i; sourceTree = "<group>"; };
+		4A2BD0482D4DEC5600EBF5B6 /* COREDEFS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = COREDEFS.i; sourceTree = "<group>"; };
+		4A2BD0492D4DEC5600EBF5B6 /* DFFILDEF.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = DFFILDEF.i; sourceTree = "<group>"; };
+		4A2BD04A2D4DEC5600EBF5B6 /* GNBLDOPT.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = GNBLDOPT.i; sourceTree = "<group>"; };
+		4A2BD04B2D4DEC5600EBF5B6 /* SPBASDEF.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = SPBASDEF.i; sourceTree = "<group>"; };
+		4A2BD04C2D4DEC5600EBF5B6 /* SPBLDOPT.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = SPBLDOPT.i; sourceTree = "<group>"; };
+		4A2BD04D2D4DEC5600EBF5B6 /* SPCNFGAP.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = SPCNFGAP.i; sourceTree = "<group>"; };
+		4A2BD04E2D4DEC5600EBF5B6 /* SPCNFGGL.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = SPCNFGGL.i; sourceTree = "<group>"; };
+		4A2BD04F2D4DEC5600EBF5B6 /* SPFILDEF.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = SPFILDEF.i; sourceTree = "<group>"; };
+		4A2BD0502D4DEC5600EBF5B6 /* SPOTHRCF.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = SPOTHRCF.i; sourceTree = "<group>"; };
+		4A2BD0512D4DEC5600EBF5B6 /* STRUTILS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = STRUTILS.i; sourceTree = "<group>"; };
+		4A2BD0522D4DEC5600EBF5B6 /* tool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tool.c; sourceTree = "<group>"; };
+		4A2BD0532D4DEC5600EBF5B6 /* USFILDEF.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = USFILDEF.i; sourceTree = "<group>"; };
+		4A2BD0542D4DEC5600EBF5B6 /* WRBGCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRBGCFLS.i; sourceTree = "<group>"; };
+		4A2BD0552D4DEC5600EBF5B6 /* WRCCCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRCCCFLS.i; sourceTree = "<group>"; };
+		4A2BD0562D4DEC5600EBF5B6 /* WRCNFGAP.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRCNFGAP.i; sourceTree = "<group>"; };
+		4A2BD0572D4DEC5600EBF5B6 /* WRCNFGGL.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRCNFGGL.i; sourceTree = "<group>"; };
+		4A2BD0582D4DEC5600EBF5B6 /* WRDMCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRDMCFLS.i; sourceTree = "<group>"; };
+		4A2BD0592D4DEC5600EBF5B6 /* WRDVCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRDVCFLS.i; sourceTree = "<group>"; };
+		4A2BD05A2D4DEC5600EBF5B6 /* WRLCCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRLCCFLS.i; sourceTree = "<group>"; };
+		4A2BD05B2D4DEC5600EBF5B6 /* WRMACRES.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRMACRES.i; sourceTree = "<group>"; };
+		4A2BD05C2D4DEC5600EBF5B6 /* WRMPLIST.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRMPLIST.i; sourceTree = "<group>"; };
+		4A2BD05D2D4DEC5600EBF5B6 /* WRMPWFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRMPWFLS.i; sourceTree = "<group>"; };
+		4A2BD05E2D4DEC5600EBF5B6 /* WRMSCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRMSCFLS.i; sourceTree = "<group>"; };
+		4A2BD05F2D4DEC5600EBF5B6 /* WRMVCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRMVCFLS.i; sourceTree = "<group>"; };
+		4A2BD0602D4DEC5600EBF5B6 /* WRMW8FLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRMW8FLS.i; sourceTree = "<group>"; };
+		4A2BD0612D4DEC5600EBF5B6 /* WRPLCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRPLCFLS.i; sourceTree = "<group>"; };
+		4A2BD0622D4DEC5600EBF5B6 /* WRSNCFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRSNCFLS.i; sourceTree = "<group>"; };
+		4A2BD0632D4DEC5600EBF5B6 /* WRTEXTFL.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRTEXTFL.i; sourceTree = "<group>"; };
+		4A2BD0642D4DEC5600EBF5B6 /* WRXCDFLS.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = WRXCDFLS.i; sourceTree = "<group>"; };
+		4A2BD0662D4DEC5600EBF5B6 /* ACTVCODE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACTVCODE.h; sourceTree = "<group>"; };
+		4A2BD0672D4DEC5600EBF5B6 /* ADBEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBEMDEV.h; sourceTree = "<group>"; };
+		4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ADBEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0692D4DEC5600EBF5B6 /* ADBSHARE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBSHARE.h; sourceTree = "<group>"; };
+		4A2BD06A2D4DEC5600EBF5B6 /* ALTKEYSM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALTKEYSM.h; sourceTree = "<group>"; };
+		4A2BD06B2D4DEC5600EBF5B6 /* ASCEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCEMDEV.h; sourceTree = "<group>"; };
+		4A2BD06C2D4DEC5600EBF5B6 /* ASCEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ASCEMDEV.c; sourceTree = "<group>"; };
+		4A2BD06D2D4DEC5600EBF5B6 /* COMOSGLU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COMOSGLU.h; sourceTree = "<group>"; };
+		4A2BD06E2D4DEC5600EBF5B6 /* CONTROLM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONTROLM.h; sourceTree = "<group>"; };
+		4A2BD06F2D4DEC5600EBF5B6 /* DATE2SEC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DATE2SEC.h; sourceTree = "<group>"; };
+		4A2BD0702D4DEC5600EBF5B6 /* DFCNFCMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFCNFCMP.h; sourceTree = "<group>"; };
+		4A2BD0712D4DEC5600EBF5B6 /* DISAM68K.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DISAM68K.h; sourceTree = "<group>"; };
+		4A2BD0722D4DEC5600EBF5B6 /* DISAM68K.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DISAM68K.c; sourceTree = "<group>"; };
+		4A2BD0732D4DEC5600EBF5B6 /* ENDIANAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENDIANAC.h; sourceTree = "<group>"; };
+		4A2BD0742D4DEC5600EBF5B6 /* FPCPEMDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPCPEMDV.h; sourceTree = "<group>"; };
+		4A2BD0752D4DEC5600EBF5B6 /* FPMATHEM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPMATHEM.h; sourceTree = "<group>"; };
+		4A2BD0762D4DEC5600EBF5B6 /* GLOBGLUE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLOBGLUE.h; sourceTree = "<group>"; };
+		4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GLOBGLUE.c; sourceTree = "<group>"; };
+		4A2BD0782D4DEC5600EBF5B6 /* HPMCHACK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPMCHACK.h; sourceTree = "<group>"; };
+		4A2BD0792D4DEC5600EBF5B6 /* ICONAPPM.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; path = ICONAPPM.r; sourceTree = "<group>"; };
+		4A2BD07A2D4DEC5600EBF5B6 /* ICONAPPO.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ICONAPPO.icns; sourceTree = "<group>"; };
+		4A2BD07B2D4DEC5600EBF5B6 /* ICONAPPW.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = ICONAPPW.ico; sourceTree = "<group>"; };
+		4A2BD07C2D4DEC5600EBF5B6 /* ICONDSKM.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; path = ICONDSKM.r; sourceTree = "<group>"; };
+		4A2BD07D2D4DEC5600EBF5B6 /* ICONDSKO.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ICONDSKO.icns; sourceTree = "<group>"; };
+		4A2BD07E2D4DEC5600EBF5B6 /* ICONDSKW.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = ICONDSKW.ico; sourceTree = "<group>"; };
+		4A2BD07F2D4DEC5600EBF5B6 /* ICONROMM.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; path = ICONROMM.r; sourceTree = "<group>"; };
+		4A2BD0802D4DEC5600EBF5B6 /* ICONROMO.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ICONROMO.icns; sourceTree = "<group>"; };
+		4A2BD0812D4DEC5600EBF5B6 /* ICONROMW.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = ICONROMW.ico; sourceTree = "<group>"; };
+		4A2BD0822D4DEC5600EBF5B6 /* INTLCHAR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INTLCHAR.h; sourceTree = "<group>"; };
+		4A2BD0832D4DEC5600EBF5B6 /* IWMEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWMEMDEV.h; sourceTree = "<group>"; };
+		4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IWMEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0852D4DEC5600EBF5B6 /* KBRDEMDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBRDEMDV.h; sourceTree = "<group>"; };
+		4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = KBRDEMDV.c; sourceTree = "<group>"; };
+		4A2BD0872D4DEC5600EBF5B6 /* LTOVRBPF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTOVRBPF.h; sourceTree = "<group>"; };
+		4A2BD0882D4DEC5600EBF5B6 /* LTOVRUDP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTOVRUDP.h; sourceTree = "<group>"; };
+		4A2BD0892D4DEC5600EBF5B6 /* M68KITAB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M68KITAB.h; sourceTree = "<group>"; };
+		4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = M68KITAB.c; sourceTree = "<group>"; };
+		4A2BD08B2D4DEC5600EBF5B6 /* main.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; path = main.r; sourceTree = "<group>"; };
+		4A2BD08C2D4DEC5600EBF5B6 /* MINEM68K.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINEM68K.h; sourceTree = "<group>"; };
+		4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MINEM68K.c; sourceTree = "<group>"; };
+		4A2BD08E2D4DEC5600EBF5B6 /* MOUSEMDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOUSEMDV.h; sourceTree = "<group>"; };
+		4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MOUSEMDV.c; sourceTree = "<group>"; };
+		4A2BD0902D4DEC5600EBF5B6 /* OSGCOMUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSGCOMUD.h; sourceTree = "<group>"; };
+		4A2BD0912D4DEC5600EBF5B6 /* OSGCOMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSGCOMUI.h; sourceTree = "<group>"; };
+		4A2BD0922D4DEC5600EBF5B6 /* OSGLUAAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSGLUAAA.h; sourceTree = "<group>"; };
+		4A2BD0932D4DEC5600EBF5B6 /* OSGLUCCO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSGLUCCO.m; sourceTree = "<group>"; };
+		4A2BD0942D4DEC5600EBF5B6 /* OSGLUDOS.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OSGLUDOS.c; sourceTree = "<group>"; };
+		4A2BD0952D4DEC5600EBF5B6 /* OSGLUGTK.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OSGLUGTK.c; sourceTree = "<group>"; };
+		4A2BD0962D4DEC5600EBF5B6 /* OSGLUMAC.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OSGLUMAC.c; sourceTree = "<group>"; };
+		4A2BD0972D4DEC5600EBF5B6 /* OSGLUNDS.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OSGLUNDS.c; sourceTree = "<group>"; };
+		4A2BD0982D4DEC5600EBF5B6 /* OSGLUOSX.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OSGLUOSX.c; sourceTree = "<group>"; };
+		4A2BD0992D4DEC5600EBF5B6 /* OSGLUSDL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OSGLUSDL.c; sourceTree = "<group>"; };
+		4A2BD09A2D4DEC5600EBF5B6 /* OSGLUWIN.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OSGLUWIN.c; sourceTree = "<group>"; };
+		4A2BD09B2D4DEC5600EBF5B6 /* OSGLUXWN.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OSGLUXWN.c; sourceTree = "<group>"; };
+		4A2BD09C2D4DEC5600EBF5B6 /* PBUFSTDC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBUFSTDC.h; sourceTree = "<group>"; };
+		4A2BD09D2D4DEC5600EBF5B6 /* PICOMMON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PICOMMON.h; sourceTree = "<group>"; };
+		4A2BD09E2D4DEC5600EBF5B6 /* PMUEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMUEMDEV.h; sourceTree = "<group>"; };
+		4A2BD09F2D4DEC5600EBF5B6 /* PMUEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PMUEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0A02D4DEC5600EBF5B6 /* PROGMAIN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PROGMAIN.h; sourceTree = "<group>"; };
+		4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PROGMAIN.c; sourceTree = "<group>"; };
+		4A2BD0A22D4DEC5600EBF5B6 /* ROMEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROMEMDEV.h; sourceTree = "<group>"; };
+		4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ROMEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0A42D4DEC5600EBF5B6 /* RTCEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTCEMDEV.h; sourceTree = "<group>"; };
+		4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RTCEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0A62D4DEC5600EBF5B6 /* SCCEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCEMDEV.h; sourceTree = "<group>"; };
+		4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCCEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0A82D4DEC5600EBF5B6 /* SCRNEMDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRNEMDV.h; sourceTree = "<group>"; };
+		4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCRNEMDV.c; sourceTree = "<group>"; };
+		4A2BD0AA2D4DEC5600EBF5B6 /* SCRNHACK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRNHACK.h; sourceTree = "<group>"; };
+		4A2BD0AB2D4DEC5600EBF5B6 /* SCRNMAPR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRNMAPR.h; sourceTree = "<group>"; };
+		4A2BD0AC2D4DEC5600EBF5B6 /* SCRNTRNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRNTRNS.h; sourceTree = "<group>"; };
+		4A2BD0AD2D4DEC5600EBF5B6 /* SCSIEMDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSIEMDV.h; sourceTree = "<group>"; };
+		4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCSIEMDV.c; sourceTree = "<group>"; };
+		4A2BD0AF2D4DEC5600EBF5B6 /* SGLUALSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGLUALSA.h; sourceTree = "<group>"; };
+		4A2BD0B02D4DEC5600EBF5B6 /* SGLUDDSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGLUDDSP.h; sourceTree = "<group>"; };
+		4A2BD0B12D4DEC5600EBF5B6 /* SNDEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNDEMDEV.h; sourceTree = "<group>"; };
+		4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SNDEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0B32D4DEC5600EBF5B6 /* SONYEMDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SONYEMDV.h; sourceTree = "<group>"; };
+		4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SONYEMDV.c; sourceTree = "<group>"; };
+		4A2BD0B52D4DEC5600EBF5B6 /* STRCNCAT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNCAT.h; sourceTree = "<group>"; };
+		4A2BD0B62D4DEC5600EBF5B6 /* STRCNCZE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNCZE.h; sourceTree = "<group>"; };
+		4A2BD0B72D4DEC5600EBF5B6 /* STRCNDUT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNDUT.h; sourceTree = "<group>"; };
+		4A2BD0B82D4DEC5600EBF5B6 /* STRCNENG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNENG.h; sourceTree = "<group>"; };
+		4A2BD0B92D4DEC5600EBF5B6 /* STRCNFRE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNFRE.h; sourceTree = "<group>"; };
+		4A2BD0BA2D4DEC5600EBF5B6 /* STRCNGER.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNGER.h; sourceTree = "<group>"; };
+		4A2BD0BB2D4DEC5600EBF5B6 /* STRCNITA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNITA.h; sourceTree = "<group>"; };
+		4A2BD0BC2D4DEC5600EBF5B6 /* STRCNPOL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNPOL.h; sourceTree = "<group>"; };
+		4A2BD0BD2D4DEC5600EBF5B6 /* STRCNPTB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNPTB.h; sourceTree = "<group>"; };
+		4A2BD0BE2D4DEC5600EBF5B6 /* STRCNSPA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNSPA.h; sourceTree = "<group>"; };
+		4A2BD0BF2D4DEC5600EBF5B6 /* STRCNSRL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCNSRL.h; sourceTree = "<group>"; };
+		4A2BD0C02D4DEC5600EBF5B6 /* VIA2EMDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIA2EMDV.h; sourceTree = "<group>"; };
+		4A2BD0C12D4DEC5600EBF5B6 /* VIA2EMDV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = VIA2EMDV.c; sourceTree = "<group>"; };
+		4A2BD0C22D4DEC5600EBF5B6 /* VIAEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIAEMDEV.h; sourceTree = "<group>"; };
+		4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = VIAEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0C42D4DEC5600EBF5B6 /* VIDEMDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIDEMDEV.h; sourceTree = "<group>"; };
+		4A2BD0C52D4DEC5600EBF5B6 /* VIDEMDEV.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = VIDEMDEV.c; sourceTree = "<group>"; };
+		4A2BD0C72D4DEC5600EBF5B6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4A2BD0C82D4DEC5600EBF5B6 /* build_dos.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_dos.sh; sourceTree = "<group>"; };
+		4A2BD0C92D4DEC5600EBF5B6 /* build_haiku.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_haiku.sh; sourceTree = "<group>"; };
+		4A2BD0CA2D4DEC5600EBF5B6 /* build_linux.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_linux.sh; sourceTree = "<group>"; };
+		4A2BD0CB2D4DEC5600EBF5B6 /* build_macos.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_macos.sh; sourceTree = "<group>"; };
+		4A2BD0CC2D4DEC5600EBF5B6 /* build_raspi64.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_raspi64.sh; sourceTree = "<group>"; };
+		4A2BD0CD2D4DEC5600EBF5B6 /* build_windows.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_windows.sh; sourceTree = "<group>"; };
+		4A2BD0CE2D4DEC5600EBF5B6 /* COPYING.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
+		4A2BD0CF2D4DEC5600EBF5B6 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		4A2BD13A2D4DED6E00EBF5B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A2BD13D2D4DEDF000EBF5B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A2BD2012D4EBA6F00EBF5B6 /* Macintosh SE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Macintosh SE.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BD2712D4EC98C00EBF5B6 /* CNFUDALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
+		4A2BD2722D4EC98C00EBF5B6 /* CNFUDOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
+		4A2BD2732D4EC98C00EBF5B6 /* CNFUDPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
+		4A2BD2742D4EC98C00EBF5B6 /* CNFUIALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIALL.h; sourceTree = "<group>"; };
+		4A2BD2752D4EC98C00EBF5B6 /* CNFUIOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIOSG.h; sourceTree = "<group>"; };
+		4A2BD2762D4EC98C00EBF5B6 /* CNFUIPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIPIC.h; sourceTree = "<group>"; };
+		4A2BD2772D4EC98C00EBF5B6 /* English */ = {isa = PBXFileReference; lastKnownFileType = text; name = English; path = English.lproj/dummy.txt; sourceTree = "<group>"; };
+		4A2BD2792D4EC98C00EBF5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2BD27A2D4EC98C00EBF5B6 /* STRCONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCONST.h; sourceTree = "<group>"; };
+		4A2BD27C2D4EC98C00EBF5B6 /* CNFUDALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
+		4A2BD27D2D4EC98C00EBF5B6 /* CNFUDOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
+		4A2BD27E2D4EC98C00EBF5B6 /* CNFUDPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
+		4A2BD27F2D4EC98C00EBF5B6 /* CNFUIALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIALL.h; sourceTree = "<group>"; };
+		4A2BD2802D4EC98C00EBF5B6 /* CNFUIOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIOSG.h; sourceTree = "<group>"; };
+		4A2BD2812D4EC98C00EBF5B6 /* CNFUIPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIPIC.h; sourceTree = "<group>"; };
+		4A2BD2822D4EC98C00EBF5B6 /* English */ = {isa = PBXFileReference; lastKnownFileType = text; name = English; path = English.lproj/dummy.txt; sourceTree = "<group>"; };
+		4A2BD2842D4EC98C00EBF5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2BD2852D4EC98C00EBF5B6 /* STRCONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCONST.h; sourceTree = "<group>"; };
+		4A2BD2872D4EC98C00EBF5B6 /* CNFUDALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
+		4A2BD2882D4EC98C00EBF5B6 /* CNFUDOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
+		4A2BD2892D4EC98C00EBF5B6 /* CNFUDPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
+		4A2BD28A2D4EC98C00EBF5B6 /* CNFUIALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIALL.h; sourceTree = "<group>"; };
+		4A2BD28B2D4EC98C00EBF5B6 /* CNFUIOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIOSG.h; sourceTree = "<group>"; };
+		4A2BD28C2D4EC98C00EBF5B6 /* CNFUIPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIPIC.h; sourceTree = "<group>"; };
+		4A2BD28D2D4EC98C00EBF5B6 /* English */ = {isa = PBXFileReference; lastKnownFileType = text; name = English; path = English.lproj/dummy.txt; sourceTree = "<group>"; };
+		4A2BD28F2D4EC98C00EBF5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2BD2902D4EC98C00EBF5B6 /* STRCONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCONST.h; sourceTree = "<group>"; };
+		4A2BD2922D4EC98C00EBF5B6 /* CNFUDALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
+		4A2BD2932D4EC98C00EBF5B6 /* CNFUDOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
+		4A2BD2942D4EC98C00EBF5B6 /* CNFUDPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
+		4A2BD2952D4EC98C00EBF5B6 /* CNFUIALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIALL.h; sourceTree = "<group>"; };
+		4A2BD2962D4EC98C00EBF5B6 /* CNFUIOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIOSG.h; sourceTree = "<group>"; };
+		4A2BD2972D4EC98C00EBF5B6 /* CNFUIPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIPIC.h; sourceTree = "<group>"; };
+		4A2BD2982D4EC98C00EBF5B6 /* English */ = {isa = PBXFileReference; lastKnownFileType = text; name = English; path = English.lproj/dummy.txt; sourceTree = "<group>"; };
+		4A2BD29A2D4EC98C00EBF5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2BD29B2D4EC98C00EBF5B6 /* STRCONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCONST.h; sourceTree = "<group>"; };
+		4A2BD29D2D4EC98C00EBF5B6 /* CNFUDALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
+		4A2BD29E2D4EC98C00EBF5B6 /* CNFUDOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
+		4A2BD29F2D4EC98C00EBF5B6 /* CNFUDPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
+		4A2BD2A02D4EC98C00EBF5B6 /* CNFUIALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIALL.h; sourceTree = "<group>"; };
+		4A2BD2A12D4EC98C00EBF5B6 /* CNFUIOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIOSG.h; sourceTree = "<group>"; };
+		4A2BD2A22D4EC98C00EBF5B6 /* CNFUIPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIPIC.h; sourceTree = "<group>"; };
+		4A2BD2A32D4EC98C00EBF5B6 /* English */ = {isa = PBXFileReference; lastKnownFileType = text; name = English; path = English.lproj/dummy.txt; sourceTree = "<group>"; };
+		4A2BD2A52D4EC98C00EBF5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2BD2A62D4EC98C00EBF5B6 /* STRCONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCONST.h; sourceTree = "<group>"; };
+		4A2BD2A82D4EC98C00EBF5B6 /* CNFUDALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
+		4A2BD2A92D4EC98C00EBF5B6 /* CNFUDOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
+		4A2BD2AA2D4EC98C00EBF5B6 /* CNFUDPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
+		4A2BD2AB2D4EC98C00EBF5B6 /* CNFUIALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIALL.h; sourceTree = "<group>"; };
+		4A2BD2AC2D4EC98C00EBF5B6 /* CNFUIOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIOSG.h; sourceTree = "<group>"; };
+		4A2BD2AD2D4EC98C00EBF5B6 /* CNFUIPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIPIC.h; sourceTree = "<group>"; };
+		4A2BD2AE2D4EC98C00EBF5B6 /* English */ = {isa = PBXFileReference; lastKnownFileType = text; name = English; path = English.lproj/dummy.txt; sourceTree = "<group>"; };
+		4A2BD2B02D4EC98C00EBF5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2BD2B12D4EC98C00EBF5B6 /* STRCONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCONST.h; sourceTree = "<group>"; };
+		4A2BD2D32D4ED37000EBF5B6 /* Macintosh 128K.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Macintosh 128K.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BD2F62D4ED39C00EBF5B6 /* Macintosh Classic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Macintosh Classic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BD3192D4ED3C300EBF5B6 /* Macintosh II.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Macintosh II.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BD33B2D4ED3F700EBF5B6 /* Macintosh Plus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Macintosh Plus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BD35D2D4ED41E00EBF5B6 /* Macintosh SE FDHD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Macintosh SE FDHD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BD3722D4EE03D00EBF5B6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4A2BD3732D4EE03D00EBF5B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4A2BD44B2D4EFCA700EBF5B6 /* Macintosh 512Ke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Macintosh 512Ke.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BD44C2D4EFCA700EBF5B6 /* Macintosh 128K copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Macintosh 128K copy-Info.plist"; path = "/Users/phil/minivmac-universal/Macintosh 128K copy-Info.plist"; sourceTree = "<absolute>"; };
+		4A2BD44D2D4EFCC000EBF5B6 /* CNFUDALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
+		4A2BD44E2D4EFCC000EBF5B6 /* CNFUDOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
+		4A2BD44F2D4EFCC000EBF5B6 /* CNFUDPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
+		4A2BD4502D4EFCC000EBF5B6 /* CNFUIALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIALL.h; sourceTree = "<group>"; };
+		4A2BD4512D4EFCC000EBF5B6 /* CNFUIOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIOSG.h; sourceTree = "<group>"; };
+		4A2BD4522D4EFCC000EBF5B6 /* CNFUIPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUIPIC.h; sourceTree = "<group>"; };
+		4A2BD4532D4EFCC000EBF5B6 /* English */ = {isa = PBXFileReference; lastKnownFileType = text; name = English; path = English.lproj/dummy.txt; sourceTree = "<group>"; };
+		4A2BD4552D4EFCC000EBF5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2BD4562D4EFCC000EBF5B6 /* STRCONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRCONST.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4A2BD1682D4DF82400EBF5B6 /* Exceptions for "Mini vMac" folder in "Mini vMac" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Emulators/MacintoshVariation.m,
+				"Emulators/Variation-Info.plist",
+			);
+			target = 4A2BCE132D4DEA9100EBF5B6 /* Mini vMac */;
+		};
+		4A2BD2062D4EBA8C00EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh SE" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Emulators/MacintoshVariation.m,
+			);
+			target = 4A2BD1E72D4EBA6F00EBF5B6 /* Macintosh SE */;
+		};
+		4A2BD2D62D4ED38200EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh 128K" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Emulators/MacintoshVariation.m,
+			);
+			target = 4A2BD2B82D4ED37000EBF5B6 /* Macintosh 128K */;
+		};
+		4A2BD2FC2D4ED3B700EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh Classic" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Emulators/MacintoshVariation.m,
+			);
+			target = 4A2BD2DB2D4ED39C00EBF5B6 /* Macintosh Classic */;
+		};
+		4A2BD31C2D4ED3CC00EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh II" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Emulators/MacintoshVariation.m,
+			);
+			target = 4A2BD2FE2D4ED3C300EBF5B6 /* Macintosh II */;
+		};
+		4A2BD3412D4ED41B00EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh Plus" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Emulators/MacintoshVariation.m,
+			);
+			target = 4A2BD3202D4ED3F700EBF5B6 /* Macintosh Plus */;
+		};
+		4A2BD3632D4ED44000EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh SE FDHD" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Emulators/MacintoshVariation.m,
+			);
+			target = 4A2BD3422D4ED41E00EBF5B6 /* Macintosh SE FDHD */;
+		};
+		4A2BD45C2D4EFCD200EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh 512Ke" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Emulators/MacintoshVariation.m,
+			);
+			target = 4A2BD4302D4EFCA700EBF5B6 /* Macintosh 512Ke */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4A2BCE162D4DEA9100EBF5B6 /* Mini vMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4A2BD1682D4DF82400EBF5B6 /* Exceptions for "Mini vMac" folder in "Mini vMac" target */,
+				4A2BD2D62D4ED38200EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh 128K" target */,
+				4A2BD2FC2D4ED3B700EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh Classic" target */,
+				4A2BD31C2D4ED3CC00EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh II" target */,
+				4A2BD3412D4ED41B00EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh Plus" target */,
+				4A2BD2062D4EBA8C00EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh SE" target */,
+				4A2BD3632D4ED44000EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh SE FDHD" target */,
+				4A2BD45C2D4EFCD200EBF5B6 /* Exceptions for "Mini vMac" folder in "Macintosh 512Ke" target */,
+			);
+			path = "Mini vMac";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2BCE112D4DEA9100EBF5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD1A42D4EB7CA00EBF5B6 /* ArgumentParser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD1FC2D4EBA6F00EBF5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2CE2D4ED37000EBF5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2F12D4ED39C00EBF5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3142D4ED3C300EBF5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3362D4ED3F700EBF5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3582D4ED41E00EBF5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD4462D4EFCA700EBF5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A2BCE0B2D4DEA9100EBF5B6 = {
+			isa = PBXGroup;
+			children = (
+				4A2BD3722D4EE03D00EBF5B6 /* LICENSE */,
+				4A2BD3732D4EE03D00EBF5B6 /* README.md */,
+				4A2BD2B32D4EC98C00EBF5B6 /* Configuration */,
+				4A2BD0D12D4DEC5600EBF5B6 /* Submodules */,
+				4A2BCE162D4DEA9100EBF5B6 /* Mini vMac */,
+				4A2BD1392D4DED6E00EBF5B6 /* Frameworks */,
+				4A2BD44C2D4EFCA700EBF5B6 /* Macintosh 128K copy-Info.plist */,
+				4A2BCE152D4DEA9100EBF5B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A2BCE152D4DEA9100EBF5B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BCE142D4DEA9100EBF5B6 /* Mini vMac.app */,
+				4A2BD2012D4EBA6F00EBF5B6 /* Macintosh SE.framework */,
+				4A2BD2D32D4ED37000EBF5B6 /* Macintosh 128K.framework */,
+				4A2BD2F62D4ED39C00EBF5B6 /* Macintosh Classic.framework */,
+				4A2BD3192D4ED3C300EBF5B6 /* Macintosh II.framework */,
+				4A2BD33B2D4ED3F700EBF5B6 /* Macintosh Plus.framework */,
+				4A2BD35D2D4ED41E00EBF5B6 /* Macintosh SE FDHD.framework */,
+				4A2BD44B2D4EFCA700EBF5B6 /* Macintosh 512Ke.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A2BD03F2D4DEC5600EBF5B6 /* disk */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD03D2D4DEC5600EBF5B6 /* mydriver.a */,
+				4A2BD03E2D4DEC5600EBF5B6 /* README.txt */,
+			);
+			path = disk;
+			sourceTree = "<group>";
+		};
+		4A2BD0412D4DEC5600EBF5B6 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD0402D4DEC5600EBF5B6 /* firmware.a */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		4A2BD0422D4DEC5600EBF5B6 /* mydriver */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD03F2D4DEC5600EBF5B6 /* disk */,
+				4A2BD0412D4DEC5600EBF5B6 /* video */,
+			);
+			path = mydriver;
+			sourceTree = "<group>";
+		};
+		4A2BD0442D4DEC5600EBF5B6 /* extras */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD0422D4DEC5600EBF5B6 /* mydriver */,
+				4A2BD0432D4DEC5600EBF5B6 /* trans.txt */,
+			);
+			path = extras;
+			sourceTree = "<group>";
+		};
+		4A2BD0652D4DEC5600EBF5B6 /* setup */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD0452D4DEC5600EBF5B6 /* BLDUTIL3.i */,
+				4A2BD0462D4DEC5600EBF5B6 /* BLDUTIL4.i */,
+				4A2BD0472D4DEC5600EBF5B6 /* CMDARGT1.i */,
+				4A2BD0482D4DEC5600EBF5B6 /* COREDEFS.i */,
+				4A2BD0492D4DEC5600EBF5B6 /* DFFILDEF.i */,
+				4A2BD04A2D4DEC5600EBF5B6 /* GNBLDOPT.i */,
+				4A2BD04B2D4DEC5600EBF5B6 /* SPBASDEF.i */,
+				4A2BD04C2D4DEC5600EBF5B6 /* SPBLDOPT.i */,
+				4A2BD04D2D4DEC5600EBF5B6 /* SPCNFGAP.i */,
+				4A2BD04E2D4DEC5600EBF5B6 /* SPCNFGGL.i */,
+				4A2BD04F2D4DEC5600EBF5B6 /* SPFILDEF.i */,
+				4A2BD0502D4DEC5600EBF5B6 /* SPOTHRCF.i */,
+				4A2BD0512D4DEC5600EBF5B6 /* STRUTILS.i */,
+				4A2BD0522D4DEC5600EBF5B6 /* tool.c */,
+				4A2BD0532D4DEC5600EBF5B6 /* USFILDEF.i */,
+				4A2BD0542D4DEC5600EBF5B6 /* WRBGCFLS.i */,
+				4A2BD0552D4DEC5600EBF5B6 /* WRCCCFLS.i */,
+				4A2BD0562D4DEC5600EBF5B6 /* WRCNFGAP.i */,
+				4A2BD0572D4DEC5600EBF5B6 /* WRCNFGGL.i */,
+				4A2BD0582D4DEC5600EBF5B6 /* WRDMCFLS.i */,
+				4A2BD0592D4DEC5600EBF5B6 /* WRDVCFLS.i */,
+				4A2BD05A2D4DEC5600EBF5B6 /* WRLCCFLS.i */,
+				4A2BD05B2D4DEC5600EBF5B6 /* WRMACRES.i */,
+				4A2BD05C2D4DEC5600EBF5B6 /* WRMPLIST.i */,
+				4A2BD05D2D4DEC5600EBF5B6 /* WRMPWFLS.i */,
+				4A2BD05E2D4DEC5600EBF5B6 /* WRMSCFLS.i */,
+				4A2BD05F2D4DEC5600EBF5B6 /* WRMVCFLS.i */,
+				4A2BD0602D4DEC5600EBF5B6 /* WRMW8FLS.i */,
+				4A2BD0612D4DEC5600EBF5B6 /* WRPLCFLS.i */,
+				4A2BD0622D4DEC5600EBF5B6 /* WRSNCFLS.i */,
+				4A2BD0632D4DEC5600EBF5B6 /* WRTEXTFL.i */,
+				4A2BD0642D4DEC5600EBF5B6 /* WRXCDFLS.i */,
+			);
+			path = setup;
+			sourceTree = "<group>";
+		};
+		4A2BD0C62D4DEC5600EBF5B6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD0662D4DEC5600EBF5B6 /* ACTVCODE.h */,
+				4A2BD0672D4DEC5600EBF5B6 /* ADBEMDEV.h */,
+				4A2BD0682D4DEC5600EBF5B6 /* ADBEMDEV.c */,
+				4A2BD0692D4DEC5600EBF5B6 /* ADBSHARE.h */,
+				4A2BD06A2D4DEC5600EBF5B6 /* ALTKEYSM.h */,
+				4A2BD06B2D4DEC5600EBF5B6 /* ASCEMDEV.h */,
+				4A2BD06C2D4DEC5600EBF5B6 /* ASCEMDEV.c */,
+				4A2BD06D2D4DEC5600EBF5B6 /* COMOSGLU.h */,
+				4A2BD06E2D4DEC5600EBF5B6 /* CONTROLM.h */,
+				4A2BD06F2D4DEC5600EBF5B6 /* DATE2SEC.h */,
+				4A2BD0702D4DEC5600EBF5B6 /* DFCNFCMP.h */,
+				4A2BD0712D4DEC5600EBF5B6 /* DISAM68K.h */,
+				4A2BD0722D4DEC5600EBF5B6 /* DISAM68K.c */,
+				4A2BD0732D4DEC5600EBF5B6 /* ENDIANAC.h */,
+				4A2BD0742D4DEC5600EBF5B6 /* FPCPEMDV.h */,
+				4A2BD0752D4DEC5600EBF5B6 /* FPMATHEM.h */,
+				4A2BD0762D4DEC5600EBF5B6 /* GLOBGLUE.h */,
+				4A2BD0772D4DEC5600EBF5B6 /* GLOBGLUE.c */,
+				4A2BD0782D4DEC5600EBF5B6 /* HPMCHACK.h */,
+				4A2BD0792D4DEC5600EBF5B6 /* ICONAPPM.r */,
+				4A2BD07A2D4DEC5600EBF5B6 /* ICONAPPO.icns */,
+				4A2BD07B2D4DEC5600EBF5B6 /* ICONAPPW.ico */,
+				4A2BD07C2D4DEC5600EBF5B6 /* ICONDSKM.r */,
+				4A2BD07D2D4DEC5600EBF5B6 /* ICONDSKO.icns */,
+				4A2BD07E2D4DEC5600EBF5B6 /* ICONDSKW.ico */,
+				4A2BD07F2D4DEC5600EBF5B6 /* ICONROMM.r */,
+				4A2BD0802D4DEC5600EBF5B6 /* ICONROMO.icns */,
+				4A2BD0812D4DEC5600EBF5B6 /* ICONROMW.ico */,
+				4A2BD0822D4DEC5600EBF5B6 /* INTLCHAR.h */,
+				4A2BD0832D4DEC5600EBF5B6 /* IWMEMDEV.h */,
+				4A2BD0842D4DEC5600EBF5B6 /* IWMEMDEV.c */,
+				4A2BD0852D4DEC5600EBF5B6 /* KBRDEMDV.h */,
+				4A2BD0862D4DEC5600EBF5B6 /* KBRDEMDV.c */,
+				4A2BD0872D4DEC5600EBF5B6 /* LTOVRBPF.h */,
+				4A2BD0882D4DEC5600EBF5B6 /* LTOVRUDP.h */,
+				4A2BD0892D4DEC5600EBF5B6 /* M68KITAB.h */,
+				4A2BD08A2D4DEC5600EBF5B6 /* M68KITAB.c */,
+				4A2BD08B2D4DEC5600EBF5B6 /* main.r */,
+				4A2BD08C2D4DEC5600EBF5B6 /* MINEM68K.h */,
+				4A2BD08D2D4DEC5600EBF5B6 /* MINEM68K.c */,
+				4A2BD08E2D4DEC5600EBF5B6 /* MOUSEMDV.h */,
+				4A2BD08F2D4DEC5600EBF5B6 /* MOUSEMDV.c */,
+				4A2BD0902D4DEC5600EBF5B6 /* OSGCOMUD.h */,
+				4A2BD0912D4DEC5600EBF5B6 /* OSGCOMUI.h */,
+				4A2BD0922D4DEC5600EBF5B6 /* OSGLUAAA.h */,
+				4A2BD0932D4DEC5600EBF5B6 /* OSGLUCCO.m */,
+				4A2BD0942D4DEC5600EBF5B6 /* OSGLUDOS.c */,
+				4A2BD0952D4DEC5600EBF5B6 /* OSGLUGTK.c */,
+				4A2BD0962D4DEC5600EBF5B6 /* OSGLUMAC.c */,
+				4A2BD0972D4DEC5600EBF5B6 /* OSGLUNDS.c */,
+				4A2BD0982D4DEC5600EBF5B6 /* OSGLUOSX.c */,
+				4A2BD0992D4DEC5600EBF5B6 /* OSGLUSDL.c */,
+				4A2BD09A2D4DEC5600EBF5B6 /* OSGLUWIN.c */,
+				4A2BD09B2D4DEC5600EBF5B6 /* OSGLUXWN.c */,
+				4A2BD09C2D4DEC5600EBF5B6 /* PBUFSTDC.h */,
+				4A2BD09D2D4DEC5600EBF5B6 /* PICOMMON.h */,
+				4A2BD09E2D4DEC5600EBF5B6 /* PMUEMDEV.h */,
+				4A2BD09F2D4DEC5600EBF5B6 /* PMUEMDEV.c */,
+				4A2BD0A02D4DEC5600EBF5B6 /* PROGMAIN.h */,
+				4A2BD0A12D4DEC5600EBF5B6 /* PROGMAIN.c */,
+				4A2BD0A22D4DEC5600EBF5B6 /* ROMEMDEV.h */,
+				4A2BD0A32D4DEC5600EBF5B6 /* ROMEMDEV.c */,
+				4A2BD0A42D4DEC5600EBF5B6 /* RTCEMDEV.h */,
+				4A2BD0A52D4DEC5600EBF5B6 /* RTCEMDEV.c */,
+				4A2BD0A62D4DEC5600EBF5B6 /* SCCEMDEV.h */,
+				4A2BD0A72D4DEC5600EBF5B6 /* SCCEMDEV.c */,
+				4A2BD0A82D4DEC5600EBF5B6 /* SCRNEMDV.h */,
+				4A2BD0A92D4DEC5600EBF5B6 /* SCRNEMDV.c */,
+				4A2BD0AA2D4DEC5600EBF5B6 /* SCRNHACK.h */,
+				4A2BD0AB2D4DEC5600EBF5B6 /* SCRNMAPR.h */,
+				4A2BD0AC2D4DEC5600EBF5B6 /* SCRNTRNS.h */,
+				4A2BD0AD2D4DEC5600EBF5B6 /* SCSIEMDV.h */,
+				4A2BD0AE2D4DEC5600EBF5B6 /* SCSIEMDV.c */,
+				4A2BD0AF2D4DEC5600EBF5B6 /* SGLUALSA.h */,
+				4A2BD0B02D4DEC5600EBF5B6 /* SGLUDDSP.h */,
+				4A2BD0B12D4DEC5600EBF5B6 /* SNDEMDEV.h */,
+				4A2BD0B22D4DEC5600EBF5B6 /* SNDEMDEV.c */,
+				4A2BD0B32D4DEC5600EBF5B6 /* SONYEMDV.h */,
+				4A2BD0B42D4DEC5600EBF5B6 /* SONYEMDV.c */,
+				4A2BD0B52D4DEC5600EBF5B6 /* STRCNCAT.h */,
+				4A2BD0B62D4DEC5600EBF5B6 /* STRCNCZE.h */,
+				4A2BD0B72D4DEC5600EBF5B6 /* STRCNDUT.h */,
+				4A2BD0B82D4DEC5600EBF5B6 /* STRCNENG.h */,
+				4A2BD0B92D4DEC5600EBF5B6 /* STRCNFRE.h */,
+				4A2BD0BA2D4DEC5600EBF5B6 /* STRCNGER.h */,
+				4A2BD0BB2D4DEC5600EBF5B6 /* STRCNITA.h */,
+				4A2BD0BC2D4DEC5600EBF5B6 /* STRCNPOL.h */,
+				4A2BD0BD2D4DEC5600EBF5B6 /* STRCNPTB.h */,
+				4A2BD0BE2D4DEC5600EBF5B6 /* STRCNSPA.h */,
+				4A2BD0BF2D4DEC5600EBF5B6 /* STRCNSRL.h */,
+				4A2BD0C02D4DEC5600EBF5B6 /* VIA2EMDV.h */,
+				4A2BD0C12D4DEC5600EBF5B6 /* VIA2EMDV.c */,
+				4A2BD0C22D4DEC5600EBF5B6 /* VIAEMDEV.h */,
+				4A2BD0C32D4DEC5600EBF5B6 /* VIAEMDEV.c */,
+				4A2BD0C42D4DEC5600EBF5B6 /* VIDEMDEV.h */,
+				4A2BD0C52D4DEC5600EBF5B6 /* VIDEMDEV.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		4A2BD0D02D4DEC5600EBF5B6 /* minivmac */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD0442D4DEC5600EBF5B6 /* extras */,
+				4A2BD0652D4DEC5600EBF5B6 /* setup */,
+				4A2BD0C62D4DEC5600EBF5B6 /* src */,
+				4A2BD0C72D4DEC5600EBF5B6 /* .gitignore */,
+				4A2BD0C82D4DEC5600EBF5B6 /* build_dos.sh */,
+				4A2BD0C92D4DEC5600EBF5B6 /* build_haiku.sh */,
+				4A2BD0CA2D4DEC5600EBF5B6 /* build_linux.sh */,
+				4A2BD0CB2D4DEC5600EBF5B6 /* build_macos.sh */,
+				4A2BD0CC2D4DEC5600EBF5B6 /* build_raspi64.sh */,
+				4A2BD0CD2D4DEC5600EBF5B6 /* build_windows.sh */,
+				4A2BD0CE2D4DEC5600EBF5B6 /* COPYING.txt */,
+				4A2BD0CF2D4DEC5600EBF5B6 /* README.txt */,
+			);
+			path = minivmac;
+			sourceTree = "<group>";
+		};
+		4A2BD0D12D4DEC5600EBF5B6 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD0D02D4DEC5600EBF5B6 /* minivmac */,
+			);
+			path = Submodules;
+			sourceTree = "<group>";
+		};
+		4A2BD1392D4DED6E00EBF5B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD13D2D4DEDF000EBF5B6 /* Foundation.framework */,
+				4A2BD13A2D4DED6E00EBF5B6 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A2BD27B2D4EC98C00EBF5B6 /* Macintosh 128K */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD2712D4EC98C00EBF5B6 /* CNFUDALL.h */,
+				4A2BD2722D4EC98C00EBF5B6 /* CNFUDOSG.h */,
+				4A2BD2732D4EC98C00EBF5B6 /* CNFUDPIC.h */,
+				4A2BD2742D4EC98C00EBF5B6 /* CNFUIALL.h */,
+				4A2BD2752D4EC98C00EBF5B6 /* CNFUIOSG.h */,
+				4A2BD2762D4EC98C00EBF5B6 /* CNFUIPIC.h */,
+				4A2BD2782D4EC98C00EBF5B6 /* dummy.txt */,
+				4A2BD2792D4EC98C00EBF5B6 /* Info.plist */,
+				4A2BD27A2D4EC98C00EBF5B6 /* STRCONST.h */,
+			);
+			path = "Macintosh 128K";
+			sourceTree = "<group>";
+		};
+		4A2BD2862D4EC98C00EBF5B6 /* Macintosh Classic */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD27C2D4EC98C00EBF5B6 /* CNFUDALL.h */,
+				4A2BD27D2D4EC98C00EBF5B6 /* CNFUDOSG.h */,
+				4A2BD27E2D4EC98C00EBF5B6 /* CNFUDPIC.h */,
+				4A2BD27F2D4EC98C00EBF5B6 /* CNFUIALL.h */,
+				4A2BD2802D4EC98C00EBF5B6 /* CNFUIOSG.h */,
+				4A2BD2812D4EC98C00EBF5B6 /* CNFUIPIC.h */,
+				4A2BD2832D4EC98C00EBF5B6 /* dummy.txt */,
+				4A2BD2842D4EC98C00EBF5B6 /* Info.plist */,
+				4A2BD2852D4EC98C00EBF5B6 /* STRCONST.h */,
+			);
+			path = "Macintosh Classic";
+			sourceTree = "<group>";
+		};
+		4A2BD2912D4EC98C00EBF5B6 /* Macintosh II */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD2872D4EC98C00EBF5B6 /* CNFUDALL.h */,
+				4A2BD2882D4EC98C00EBF5B6 /* CNFUDOSG.h */,
+				4A2BD2892D4EC98C00EBF5B6 /* CNFUDPIC.h */,
+				4A2BD28A2D4EC98C00EBF5B6 /* CNFUIALL.h */,
+				4A2BD28B2D4EC98C00EBF5B6 /* CNFUIOSG.h */,
+				4A2BD28C2D4EC98C00EBF5B6 /* CNFUIPIC.h */,
+				4A2BD28E2D4EC98C00EBF5B6 /* dummy.txt */,
+				4A2BD28F2D4EC98C00EBF5B6 /* Info.plist */,
+				4A2BD2902D4EC98C00EBF5B6 /* STRCONST.h */,
+			);
+			path = "Macintosh II";
+			sourceTree = "<group>";
+		};
+		4A2BD29C2D4EC98C00EBF5B6 /* Macintosh Plus */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD2922D4EC98C00EBF5B6 /* CNFUDALL.h */,
+				4A2BD2932D4EC98C00EBF5B6 /* CNFUDOSG.h */,
+				4A2BD2942D4EC98C00EBF5B6 /* CNFUDPIC.h */,
+				4A2BD2952D4EC98C00EBF5B6 /* CNFUIALL.h */,
+				4A2BD2962D4EC98C00EBF5B6 /* CNFUIOSG.h */,
+				4A2BD2972D4EC98C00EBF5B6 /* CNFUIPIC.h */,
+				4A2BD2992D4EC98C00EBF5B6 /* dummy.txt */,
+				4A2BD29A2D4EC98C00EBF5B6 /* Info.plist */,
+				4A2BD29B2D4EC98C00EBF5B6 /* STRCONST.h */,
+			);
+			path = "Macintosh Plus";
+			sourceTree = "<group>";
+		};
+		4A2BD2A72D4EC98C00EBF5B6 /* Macintosh SE */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD29D2D4EC98C00EBF5B6 /* CNFUDALL.h */,
+				4A2BD29E2D4EC98C00EBF5B6 /* CNFUDOSG.h */,
+				4A2BD29F2D4EC98C00EBF5B6 /* CNFUDPIC.h */,
+				4A2BD2A02D4EC98C00EBF5B6 /* CNFUIALL.h */,
+				4A2BD2A12D4EC98C00EBF5B6 /* CNFUIOSG.h */,
+				4A2BD2A22D4EC98C00EBF5B6 /* CNFUIPIC.h */,
+				4A2BD2A42D4EC98C00EBF5B6 /* dummy.txt */,
+				4A2BD2A52D4EC98C00EBF5B6 /* Info.plist */,
+				4A2BD2A62D4EC98C00EBF5B6 /* STRCONST.h */,
+			);
+			path = "Macintosh SE";
+			sourceTree = "<group>";
+		};
+		4A2BD2B22D4EC98C00EBF5B6 /* Macintosh SE FDHD */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD2A82D4EC98C00EBF5B6 /* CNFUDALL.h */,
+				4A2BD2A92D4EC98C00EBF5B6 /* CNFUDOSG.h */,
+				4A2BD2AA2D4EC98C00EBF5B6 /* CNFUDPIC.h */,
+				4A2BD2AB2D4EC98C00EBF5B6 /* CNFUIALL.h */,
+				4A2BD2AC2D4EC98C00EBF5B6 /* CNFUIOSG.h */,
+				4A2BD2AD2D4EC98C00EBF5B6 /* CNFUIPIC.h */,
+				4A2BD2AF2D4EC98C00EBF5B6 /* dummy.txt */,
+				4A2BD2B02D4EC98C00EBF5B6 /* Info.plist */,
+				4A2BD2B12D4EC98C00EBF5B6 /* STRCONST.h */,
+			);
+			path = "Macintosh SE FDHD";
+			sourceTree = "<group>";
+		};
+		4A2BD2B32D4EC98C00EBF5B6 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD4572D4EFCC000EBF5B6 /* Macintosh 512Ke */,
+				4A2BD27B2D4EC98C00EBF5B6 /* Macintosh 128K */,
+				4A2BD2862D4EC98C00EBF5B6 /* Macintosh Classic */,
+				4A2BD2912D4EC98C00EBF5B6 /* Macintosh II */,
+				4A2BD29C2D4EC98C00EBF5B6 /* Macintosh Plus */,
+				4A2BD2A72D4EC98C00EBF5B6 /* Macintosh SE */,
+				4A2BD2B22D4EC98C00EBF5B6 /* Macintosh SE FDHD */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		4A2BD4572D4EFCC000EBF5B6 /* Macintosh 512Ke */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BD44D2D4EFCC000EBF5B6 /* CNFUDALL.h */,
+				4A2BD44E2D4EFCC000EBF5B6 /* CNFUDOSG.h */,
+				4A2BD44F2D4EFCC000EBF5B6 /* CNFUDPIC.h */,
+				4A2BD4502D4EFCC000EBF5B6 /* CNFUIALL.h */,
+				4A2BD4512D4EFCC000EBF5B6 /* CNFUIOSG.h */,
+				4A2BD4522D4EFCC000EBF5B6 /* CNFUIPIC.h */,
+				4A2BD4542D4EFCC000EBF5B6 /* dummy.txt */,
+				4A2BD4552D4EFCC000EBF5B6 /* Info.plist */,
+				4A2BD4562D4EFCC000EBF5B6 /* STRCONST.h */,
+			);
+			path = "Macintosh 512Ke";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A2BD1E82D4EBA6F00EBF5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD2B42D4EC99400EBF5B6 /* CNFUDALL.h in Headers */,
+				4A2BD2B52D4EC99700EBF5B6 /* CNFUDOSG.h in Headers */,
+				4A2BD2B62D4EC99900EBF5B6 /* CNFUDPIC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2B92D4ED37000EBF5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD2D72D4ED38C00EBF5B6 /* CNFUDALL.h in Headers */,
+				4A2BD2D82D4ED38D00EBF5B6 /* CNFUDOSG.h in Headers */,
+				4A2BD2D92D4ED38F00EBF5B6 /* CNFUDPIC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2DC2D4ED39C00EBF5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD2F82D4ED3AF00EBF5B6 /* CNFUDALL.h in Headers */,
+				4A2BD2F92D4ED3B100EBF5B6 /* CNFUDOSG.h in Headers */,
+				4A2BD2FA2D4ED3B300EBF5B6 /* CNFUDPIC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2FF2D4ED3C300EBF5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD31D2D4ED3D400EBF5B6 /* CNFUDALL.h in Headers */,
+				4A2BD31E2D4ED3D600EBF5B6 /* CNFUDOSG.h in Headers */,
+				4A2BD31F2D4ED3D800EBF5B6 /* CNFUDPIC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3212D4ED3F700EBF5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD33D2D4ED40F00EBF5B6 /* CNFUDALL.h in Headers */,
+				4A2BD33E2D4ED41000EBF5B6 /* CNFUDOSG.h in Headers */,
+				4A2BD33F2D4ED41200EBF5B6 /* CNFUDPIC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3432D4ED41E00EBF5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD35F2D4ED43400EBF5B6 /* CNFUDALL.h in Headers */,
+				4A2BD3602D4ED43500EBF5B6 /* CNFUDOSG.h in Headers */,
+				4A2BD3612D4ED43700EBF5B6 /* CNFUDPIC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD4312D4EFCA700EBF5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD4582D4EFCC800EBF5B6 /* CNFUDALL.h in Headers */,
+				4A2BD4592D4EFCCA00EBF5B6 /* CNFUDOSG.h in Headers */,
+				4A2BD45A2D4EFCCC00EBF5B6 /* CNFUDPIC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A2BCE132D4DEA9100EBF5B6 /* Mini vMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BCE232D4DEA9200EBF5B6 /* Build configuration list for PBXNativeTarget "Mini vMac" */;
+			buildPhases = (
+				4A2BCE102D4DEA9100EBF5B6 /* Sources */,
+				4A2BCE112D4DEA9100EBF5B6 /* Frameworks */,
+				4A2BCE122D4DEA9100EBF5B6 /* Resources */,
+				4A2BD25A2D4EBDC000EBF5B6 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4A2BCE162D4DEA9100EBF5B6 /* Mini vMac */,
+			);
+			name = "Mini vMac";
+			packageProductDependencies = (
+				4A2BD1A32D4EB7CA00EBF5B6 /* ArgumentParser */,
+			);
+			productName = "Mini vMac";
+			productReference = 4A2BCE142D4DEA9100EBF5B6 /* Mini vMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A2BD1E72D4EBA6F00EBF5B6 /* Macintosh SE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BD1FE2D4EBA6F00EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh SE" */;
+			buildPhases = (
+				4A2BD1E82D4EBA6F00EBF5B6 /* Headers */,
+				4A2BD1EC2D4EBA6F00EBF5B6 /* Sources */,
+				4A2BD1FC2D4EBA6F00EBF5B6 /* Frameworks */,
+				4A2BD1FD2D4EBA6F00EBF5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macintosh SE";
+			packageProductDependencies = (
+			);
+			productName = Macintosh128K;
+			productReference = 4A2BD2012D4EBA6F00EBF5B6 /* Macintosh SE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A2BD2B82D4ED37000EBF5B6 /* Macintosh 128K */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BD2D02D4ED37000EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh 128K" */;
+			buildPhases = (
+				4A2BD2B92D4ED37000EBF5B6 /* Headers */,
+				4A2BD2BD2D4ED37000EBF5B6 /* Sources */,
+				4A2BD2CE2D4ED37000EBF5B6 /* Frameworks */,
+				4A2BD2CF2D4ED37000EBF5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macintosh 128K";
+			packageProductDependencies = (
+			);
+			productName = Macintosh128K;
+			productReference = 4A2BD2D32D4ED37000EBF5B6 /* Macintosh 128K.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A2BD2DB2D4ED39C00EBF5B6 /* Macintosh Classic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BD2F32D4ED39C00EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh Classic" */;
+			buildPhases = (
+				4A2BD2DC2D4ED39C00EBF5B6 /* Headers */,
+				4A2BD2E02D4ED39C00EBF5B6 /* Sources */,
+				4A2BD2F12D4ED39C00EBF5B6 /* Frameworks */,
+				4A2BD2F22D4ED39C00EBF5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macintosh Classic";
+			packageProductDependencies = (
+			);
+			productName = Macintosh128K;
+			productReference = 4A2BD2F62D4ED39C00EBF5B6 /* Macintosh Classic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A2BD2FE2D4ED3C300EBF5B6 /* Macintosh II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BD3162D4ED3C300EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh II" */;
+			buildPhases = (
+				4A2BD2FF2D4ED3C300EBF5B6 /* Headers */,
+				4A2BD3032D4ED3C300EBF5B6 /* Sources */,
+				4A2BD3142D4ED3C300EBF5B6 /* Frameworks */,
+				4A2BD3152D4ED3C300EBF5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macintosh II";
+			packageProductDependencies = (
+			);
+			productName = Macintosh128K;
+			productReference = 4A2BD3192D4ED3C300EBF5B6 /* Macintosh II.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A2BD3202D4ED3F700EBF5B6 /* Macintosh Plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BD3382D4ED3F700EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh Plus" */;
+			buildPhases = (
+				4A2BD3212D4ED3F700EBF5B6 /* Headers */,
+				4A2BD3252D4ED3F700EBF5B6 /* Sources */,
+				4A2BD3362D4ED3F700EBF5B6 /* Frameworks */,
+				4A2BD3372D4ED3F700EBF5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macintosh Plus";
+			packageProductDependencies = (
+			);
+			productName = Macintosh128K;
+			productReference = 4A2BD33B2D4ED3F700EBF5B6 /* Macintosh Plus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A2BD3422D4ED41E00EBF5B6 /* Macintosh SE FDHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BD35A2D4ED41E00EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh SE FDHD" */;
+			buildPhases = (
+				4A2BD3432D4ED41E00EBF5B6 /* Headers */,
+				4A2BD3472D4ED41E00EBF5B6 /* Sources */,
+				4A2BD3582D4ED41E00EBF5B6 /* Frameworks */,
+				4A2BD3592D4ED41E00EBF5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macintosh SE FDHD";
+			packageProductDependencies = (
+			);
+			productName = Macintosh128K;
+			productReference = 4A2BD35D2D4ED41E00EBF5B6 /* Macintosh SE FDHD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A2BD4302D4EFCA700EBF5B6 /* Macintosh 512Ke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BD4482D4EFCA700EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh 512Ke" */;
+			buildPhases = (
+				4A2BD4312D4EFCA700EBF5B6 /* Headers */,
+				4A2BD4352D4EFCA700EBF5B6 /* Sources */,
+				4A2BD4462D4EFCA700EBF5B6 /* Frameworks */,
+				4A2BD4472D4EFCA700EBF5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macintosh 512Ke";
+			packageProductDependencies = (
+			);
+			productName = Macintosh128K;
+			productReference = 4A2BD44B2D4EFCA700EBF5B6 /* Macintosh 512Ke.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A2BCE0C2D4DEA9100EBF5B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4A2BCE132D4DEA9100EBF5B6 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+				};
+			};
+			buildConfigurationList = 4A2BCE0F2D4DEA9100EBF5B6 /* Build configuration list for PBXProject "Mini vMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 4A2BCE0B2D4DEA9100EBF5B6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4A2BD1A22D4EB7CA00EBF5B6 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4A2BCE152D4DEA9100EBF5B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A2BCE132D4DEA9100EBF5B6 /* Mini vMac */,
+				4A2BD2B82D4ED37000EBF5B6 /* Macintosh 128K */,
+				4A2BD2DB2D4ED39C00EBF5B6 /* Macintosh Classic */,
+				4A2BD2FE2D4ED3C300EBF5B6 /* Macintosh II */,
+				4A2BD3202D4ED3F700EBF5B6 /* Macintosh Plus */,
+				4A2BD1E72D4EBA6F00EBF5B6 /* Macintosh SE */,
+				4A2BD3422D4ED41E00EBF5B6 /* Macintosh SE FDHD */,
+				4A2BD4302D4EFCA700EBF5B6 /* Macintosh 512Ke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2BCE122D4DEA9100EBF5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD1FD2D4EBA6F00EBF5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2CF2D4ED37000EBF5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2F22D4ED39C00EBF5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3152D4ED3C300EBF5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3372D4ED3F700EBF5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3592D4ED41E00EBF5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD4472D4EFCA700EBF5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A2BCE102D4DEA9100EBF5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD1EC2D4EBA6F00EBF5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD2B72D4ED01A00EBF5B6 /* ADBEMDEV.c in Sources */,
+				4A2BD1ED2D4EBA6F00EBF5B6 /* MOUSEMDV.c in Sources */,
+				4A2BD1EE2D4EBA6F00EBF5B6 /* SCCEMDEV.c in Sources */,
+				4A2BD1EF2D4EBA6F00EBF5B6 /* KBRDEMDV.c in Sources */,
+				4A2BD1F02D4EBA6F00EBF5B6 /* RTCEMDEV.c in Sources */,
+				4A2BD1F12D4EBA6F00EBF5B6 /* ROMEMDEV.c in Sources */,
+				4A2BD1F22D4EBA6F00EBF5B6 /* SNDEMDEV.c in Sources */,
+				4A2BD1F32D4EBA6F00EBF5B6 /* SONYEMDV.c in Sources */,
+				4A2BD1F42D4EBA6F00EBF5B6 /* SCRNEMDV.c in Sources */,
+				4A2BD1F52D4EBA6F00EBF5B6 /* VIAEMDEV.c in Sources */,
+				4A2BD1F62D4EBA6F00EBF5B6 /* IWMEMDEV.c in Sources */,
+				4A2BD1F72D4EBA6F00EBF5B6 /* PROGMAIN.c in Sources */,
+				4A2BD1F82D4EBA6F00EBF5B6 /* M68KITAB.c in Sources */,
+				4A2BD1F92D4EBA6F00EBF5B6 /* GLOBGLUE.c in Sources */,
+				4A2BD1FA2D4EBA6F00EBF5B6 /* MINEM68K.c in Sources */,
+				4A2BD1FB2D4EBA6F00EBF5B6 /* SCSIEMDV.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2BD2D4ED37000EBF5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD2BE2D4ED37000EBF5B6 /* ADBEMDEV.c in Sources */,
+				4A2BD2BF2D4ED37000EBF5B6 /* MOUSEMDV.c in Sources */,
+				4A2BD2C02D4ED37000EBF5B6 /* SCCEMDEV.c in Sources */,
+				4A2BD2C12D4ED37000EBF5B6 /* KBRDEMDV.c in Sources */,
+				4A2BD2C22D4ED37000EBF5B6 /* RTCEMDEV.c in Sources */,
+				4A2BD2C32D4ED37000EBF5B6 /* ROMEMDEV.c in Sources */,
+				4A2BD2C42D4ED37000EBF5B6 /* SNDEMDEV.c in Sources */,
+				4A2BD2C52D4ED37000EBF5B6 /* SONYEMDV.c in Sources */,
+				4A2BD2C62D4ED37000EBF5B6 /* SCRNEMDV.c in Sources */,
+				4A2BD2C72D4ED37000EBF5B6 /* VIAEMDEV.c in Sources */,
+				4A2BD2C82D4ED37000EBF5B6 /* IWMEMDEV.c in Sources */,
+				4A2BD2C92D4ED37000EBF5B6 /* PROGMAIN.c in Sources */,
+				4A2BD2CA2D4ED37000EBF5B6 /* M68KITAB.c in Sources */,
+				4A2BD2CB2D4ED37000EBF5B6 /* GLOBGLUE.c in Sources */,
+				4A2BD2CC2D4ED37000EBF5B6 /* MINEM68K.c in Sources */,
+				4A2BD2CD2D4ED37000EBF5B6 /* SCSIEMDV.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD2E02D4ED39C00EBF5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD2E12D4ED39C00EBF5B6 /* ADBEMDEV.c in Sources */,
+				4A2BD2E22D4ED39C00EBF5B6 /* MOUSEMDV.c in Sources */,
+				4A2BD2E32D4ED39C00EBF5B6 /* SCCEMDEV.c in Sources */,
+				4A2BD2E42D4ED39C00EBF5B6 /* KBRDEMDV.c in Sources */,
+				4A2BD2E52D4ED39C00EBF5B6 /* RTCEMDEV.c in Sources */,
+				4A2BD2E62D4ED39C00EBF5B6 /* ROMEMDEV.c in Sources */,
+				4A2BD2E72D4ED39C00EBF5B6 /* SNDEMDEV.c in Sources */,
+				4A2BD2E82D4ED39C00EBF5B6 /* SONYEMDV.c in Sources */,
+				4A2BD2E92D4ED39C00EBF5B6 /* SCRNEMDV.c in Sources */,
+				4A2BD2EA2D4ED39C00EBF5B6 /* VIAEMDEV.c in Sources */,
+				4A2BD2EB2D4ED39C00EBF5B6 /* IWMEMDEV.c in Sources */,
+				4A2BD2EC2D4ED39C00EBF5B6 /* PROGMAIN.c in Sources */,
+				4A2BD2ED2D4ED39C00EBF5B6 /* M68KITAB.c in Sources */,
+				4A2BD2EE2D4ED39C00EBF5B6 /* GLOBGLUE.c in Sources */,
+				4A2BD2EF2D4ED39C00EBF5B6 /* MINEM68K.c in Sources */,
+				4A2BD2F02D4ED39C00EBF5B6 /* SCSIEMDV.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3032D4ED3C300EBF5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD36D2D4ED4EE00EBF5B6 /* VIA2EMDV.c in Sources */,
+				4A2BD36C2D4ED4DE00EBF5B6 /* VIDEMDEV.c in Sources */,
+				4A2BD36B2D4ED4D100EBF5B6 /* ASCEMDEV.c in Sources */,
+				4A2BD3042D4ED3C300EBF5B6 /* ADBEMDEV.c in Sources */,
+				4A2BD3052D4ED3C300EBF5B6 /* MOUSEMDV.c in Sources */,
+				4A2BD3062D4ED3C300EBF5B6 /* SCCEMDEV.c in Sources */,
+				4A2BD3072D4ED3C300EBF5B6 /* KBRDEMDV.c in Sources */,
+				4A2BD3082D4ED3C300EBF5B6 /* RTCEMDEV.c in Sources */,
+				4A2BD3092D4ED3C300EBF5B6 /* ROMEMDEV.c in Sources */,
+				4A2BD30A2D4ED3C300EBF5B6 /* SNDEMDEV.c in Sources */,
+				4A2BD30B2D4ED3C300EBF5B6 /* SONYEMDV.c in Sources */,
+				4A2BD30C2D4ED3C300EBF5B6 /* SCRNEMDV.c in Sources */,
+				4A2BD30D2D4ED3C300EBF5B6 /* VIAEMDEV.c in Sources */,
+				4A2BD30E2D4ED3C300EBF5B6 /* IWMEMDEV.c in Sources */,
+				4A2BD30F2D4ED3C300EBF5B6 /* PROGMAIN.c in Sources */,
+				4A2BD3102D4ED3C300EBF5B6 /* M68KITAB.c in Sources */,
+				4A2BD3112D4ED3C300EBF5B6 /* GLOBGLUE.c in Sources */,
+				4A2BD3122D4ED3C300EBF5B6 /* MINEM68K.c in Sources */,
+				4A2BD3132D4ED3C300EBF5B6 /* SCSIEMDV.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3252D4ED3F700EBF5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD3262D4ED3F700EBF5B6 /* ADBEMDEV.c in Sources */,
+				4A2BD3272D4ED3F700EBF5B6 /* MOUSEMDV.c in Sources */,
+				4A2BD3282D4ED3F700EBF5B6 /* SCCEMDEV.c in Sources */,
+				4A2BD3292D4ED3F700EBF5B6 /* KBRDEMDV.c in Sources */,
+				4A2BD32A2D4ED3F700EBF5B6 /* RTCEMDEV.c in Sources */,
+				4A2BD32B2D4ED3F700EBF5B6 /* ROMEMDEV.c in Sources */,
+				4A2BD32C2D4ED3F700EBF5B6 /* SNDEMDEV.c in Sources */,
+				4A2BD32D2D4ED3F700EBF5B6 /* SONYEMDV.c in Sources */,
+				4A2BD32E2D4ED3F700EBF5B6 /* SCRNEMDV.c in Sources */,
+				4A2BD32F2D4ED3F700EBF5B6 /* VIAEMDEV.c in Sources */,
+				4A2BD3302D4ED3F700EBF5B6 /* IWMEMDEV.c in Sources */,
+				4A2BD3312D4ED3F700EBF5B6 /* PROGMAIN.c in Sources */,
+				4A2BD3322D4ED3F700EBF5B6 /* M68KITAB.c in Sources */,
+				4A2BD3332D4ED3F700EBF5B6 /* GLOBGLUE.c in Sources */,
+				4A2BD3342D4ED3F700EBF5B6 /* MINEM68K.c in Sources */,
+				4A2BD3352D4ED3F700EBF5B6 /* SCSIEMDV.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD3472D4ED41E00EBF5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD3482D4ED41E00EBF5B6 /* ADBEMDEV.c in Sources */,
+				4A2BD3492D4ED41E00EBF5B6 /* MOUSEMDV.c in Sources */,
+				4A2BD34A2D4ED41E00EBF5B6 /* SCCEMDEV.c in Sources */,
+				4A2BD34B2D4ED41E00EBF5B6 /* KBRDEMDV.c in Sources */,
+				4A2BD34C2D4ED41E00EBF5B6 /* RTCEMDEV.c in Sources */,
+				4A2BD34D2D4ED41E00EBF5B6 /* ROMEMDEV.c in Sources */,
+				4A2BD34E2D4ED41E00EBF5B6 /* SNDEMDEV.c in Sources */,
+				4A2BD34F2D4ED41E00EBF5B6 /* SONYEMDV.c in Sources */,
+				4A2BD3502D4ED41E00EBF5B6 /* SCRNEMDV.c in Sources */,
+				4A2BD3512D4ED41E00EBF5B6 /* VIAEMDEV.c in Sources */,
+				4A2BD3522D4ED41E00EBF5B6 /* IWMEMDEV.c in Sources */,
+				4A2BD3532D4ED41E00EBF5B6 /* PROGMAIN.c in Sources */,
+				4A2BD3542D4ED41E00EBF5B6 /* M68KITAB.c in Sources */,
+				4A2BD3552D4ED41E00EBF5B6 /* GLOBGLUE.c in Sources */,
+				4A2BD3562D4ED41E00EBF5B6 /* MINEM68K.c in Sources */,
+				4A2BD3572D4ED41E00EBF5B6 /* SCSIEMDV.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BD4352D4EFCA700EBF5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BD4362D4EFCA700EBF5B6 /* ADBEMDEV.c in Sources */,
+				4A2BD4372D4EFCA700EBF5B6 /* MOUSEMDV.c in Sources */,
+				4A2BD4382D4EFCA700EBF5B6 /* SCCEMDEV.c in Sources */,
+				4A2BD4392D4EFCA700EBF5B6 /* KBRDEMDV.c in Sources */,
+				4A2BD43A2D4EFCA700EBF5B6 /* RTCEMDEV.c in Sources */,
+				4A2BD43B2D4EFCA700EBF5B6 /* ROMEMDEV.c in Sources */,
+				4A2BD43C2D4EFCA700EBF5B6 /* SNDEMDEV.c in Sources */,
+				4A2BD43D2D4EFCA700EBF5B6 /* SONYEMDV.c in Sources */,
+				4A2BD43E2D4EFCA700EBF5B6 /* SCRNEMDV.c in Sources */,
+				4A2BD43F2D4EFCA700EBF5B6 /* VIAEMDEV.c in Sources */,
+				4A2BD4402D4EFCA700EBF5B6 /* IWMEMDEV.c in Sources */,
+				4A2BD4412D4EFCA700EBF5B6 /* PROGMAIN.c in Sources */,
+				4A2BD4422D4EFCA700EBF5B6 /* M68KITAB.c in Sources */,
+				4A2BD4432D4EFCA700EBF5B6 /* GLOBGLUE.c in Sources */,
+				4A2BD4442D4EFCA700EBF5B6 /* MINEM68K.c in Sources */,
+				4A2BD4452D4EFCA700EBF5B6 /* SCSIEMDV.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A2BD2782D4EC98C00EBF5B6 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BD2772D4EC98C00EBF5B6 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+		4A2BD2832D4EC98C00EBF5B6 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BD2822D4EC98C00EBF5B6 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+		4A2BD28E2D4EC98C00EBF5B6 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BD28D2D4EC98C00EBF5B6 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+		4A2BD2992D4EC98C00EBF5B6 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BD2982D4EC98C00EBF5B6 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+		4A2BD2A42D4EC98C00EBF5B6 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BD2A32D4EC98C00EBF5B6 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+		4A2BD2AF2D4EC98C00EBF5B6 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BD2AE2D4EC98C00EBF5B6 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+		4A2BD4542D4EFCC000EBF5B6 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BD4532D4EFCC000EBF5B6 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A2BCE212D4DEA9200EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A2BCE222D4DEA9200EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4A2BCE242D4DEA9200EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Mini vMac/Mini_vMac.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Application";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Submodules/minivmac/extras/mydriver/disk",
+					"$(PROJECT_DIR)/Submodules/minivmac/extras/mydriver/video",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mini vMac/Mini vMac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A2BCE252D4DEA9200EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Mini vMac/Mini_vMac.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Application";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Submodules/minivmac/extras/mydriver/disk",
+					"$(PROJECT_DIR)/Submodules/minivmac/extras/mydriver/video",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mini vMac/Mini vMac-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4A2BD1FF2D4EBA6F00EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshSE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2BD2002D4EBA6F00EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshSE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A2BD2D12D4ED37000EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.Macintosh128K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2BD2D22D4ED37000EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.Macintosh128K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A2BD2F42D4ED39C00EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshClassic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2BD2F52D4ED39C00EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshClassic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A2BD3172D4ED3C300EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshII;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2BD3182D4ED3C300EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshII;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A2BD3392D4ED3F700EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2BD33A2D4ED3F700EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A2BD35B2D4ED41E00EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshSEFDHD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2BD35C2D4ED41E00EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/Emulators/Variation-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.MacintoshSEFDHD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A2BD4492D4EFCA700EBF5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Macintosh 128K copy-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.Macintosh128K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2BD44A2D4EFCA700EBF5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN5H83SSGJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Macintosh 128K copy-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Configuration/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = work.philz.minivmac.Macintosh128K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Configuration/$(PRODUCT_NAME)\"",
+					"\"$(SRCROOT)/Submodules/minivmac/src\"",
+					"\"$(SRCROOT)/Mini vMac\"",
+				);
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2BCE0F2D4DEA9100EBF5B6 /* Build configuration list for PBXProject "Mini vMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BCE212D4DEA9200EBF5B6 /* Debug */,
+				4A2BCE222D4DEA9200EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BCE232D4DEA9200EBF5B6 /* Build configuration list for PBXNativeTarget "Mini vMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BCE242D4DEA9200EBF5B6 /* Debug */,
+				4A2BCE252D4DEA9200EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BD1FE2D4EBA6F00EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh SE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BD1FF2D4EBA6F00EBF5B6 /* Debug */,
+				4A2BD2002D4EBA6F00EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BD2D02D4ED37000EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh 128K" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BD2D12D4ED37000EBF5B6 /* Debug */,
+				4A2BD2D22D4ED37000EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BD2F32D4ED39C00EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh Classic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BD2F42D4ED39C00EBF5B6 /* Debug */,
+				4A2BD2F52D4ED39C00EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BD3162D4ED3C300EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BD3172D4ED3C300EBF5B6 /* Debug */,
+				4A2BD3182D4ED3C300EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BD3382D4ED3F700EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BD3392D4ED3F700EBF5B6 /* Debug */,
+				4A2BD33A2D4ED3F700EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BD35A2D4ED41E00EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh SE FDHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BD35B2D4ED41E00EBF5B6 /* Debug */,
+				4A2BD35C2D4ED41E00EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BD4482D4EFCA700EBF5B6 /* Build configuration list for PBXNativeTarget "Macintosh 512Ke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BD4492D4EFCA700EBF5B6 /* Debug */,
+				4A2BD44A2D4EFCA700EBF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A2BD1A22D4EB7CA00EBF5B6 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A2BD1A32D4EB7CA00EBF5B6 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A2BD1A22D4EB7CA00EBF5B6 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4A2BCE0C2D4DEA9100EBF5B6 /* Project object */;
+}
