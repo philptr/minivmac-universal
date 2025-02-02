@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol EmulatorVariation <NSObject>
 
-- (instancetype)initWithROMAtPath:(NSString *)path;
+- (nullable instancetype)initWithROMAtPath:(NSString *)path;
 
 - (void)start;
 

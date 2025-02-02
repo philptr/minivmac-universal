@@ -9,7 +9,7 @@ import ArgumentParser
 
 struct AppArguments: ParsableCommand {
     @Option(name: .customLong("emulator", withSingleDash: true))
-    var emulatorName: String
+    var emulatorName: String?
     
     @Option(name: .customLong("rom", withSingleDash: true))
     var romPath: String

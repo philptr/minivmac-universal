@@ -5318,19 +5318,30 @@ int main(int argc, char **argv)
 
 @implementation MMPrincipalClassName
 
-- (instancetype)initWithROMAtPath:(NSString *)path {
+- (nullable instancetype)initWithROMAtPath:(NSString *)path {
+    // Verify this variation can emulate the provided ROM. If not, return nil.
+    AllocMyMemory();
+    if (mnvm_noErr != LoadMacRomPath(path)) {
+        UnallocMyMemory();
+        return nil;
+    }
+    
+    // Memorize the ROM path and wait for the -start command.
     if (self = [super init]) {
         _ROMFilePath = path;
     }
+    
     return self;
 }
 
 - (void)start {
+    MacMsgDisplayOff();
     ZapOSGLUVars();
     
     if (InitOSGLU()) {
         ProgramMain();
     }
+    
     UnInitOSGLU();
 }
 
