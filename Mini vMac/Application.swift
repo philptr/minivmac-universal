@@ -7,6 +7,10 @@
 
 import AppKit
 
+#if canImport(WindowBridge)
+import WindowBridge
+#endif
+
 final class Application: NSApplication {
     let strongDelegate = AppDelegate()
     

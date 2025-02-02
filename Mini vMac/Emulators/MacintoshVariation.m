@@ -597,7 +597,7 @@ LOCALFUNC tMacErr NSStringToRomanPbuf(NSString *string, tPbuf *r)
             /* memcpy((char *)p, s, L); */
             ui3b *p0 = (ui3b *)s;
             ui3b *p1 = (ui3b *)p;
-            int i;
+            NSInteger i;
             
             for (i = L; --i >= 0; ) {
                 ui3b v = *p0++;
@@ -607,7 +607,7 @@ LOCALFUNC tMacErr NSStringToRomanPbuf(NSString *string, tPbuf *r)
                 *p1++ = v;
             }
             
-            v = PbufNewFromPtr(p, L, r);
+            v = PbufNewFromPtr(p, (ui5b)L, r);
         }
     }
     
@@ -841,9 +841,9 @@ GLOBALOSGLUFUNC tMacErr vSonyTransfer(blnr IsWrite, ui3p Buffer,
     
     if (0 == fseek(refnum, Sony_Start, SEEK_SET)) {
         if (IsWrite) {
-            NewSony_Count = fwrite(Buffer, 1, Sony_Count, refnum);
+            NewSony_Count = (ui5r)fwrite(Buffer, 1, Sony_Count, refnum);
         } else {
-            NewSony_Count = fread(Buffer, 1, Sony_Count, refnum);
+            NewSony_Count = (ui5r)fread(Buffer, 1, Sony_Count, refnum);
         }
         
         if (NewSony_Count == Sony_Count) {
@@ -1096,7 +1096,7 @@ LOCALFUNC blnr Sony_Insert2(char *s)
 LOCALFUNC tMacErr LoadMacRomPath(NSString *RomPath)
 {
     FILE *ROM_File;
-    int File_Size;
+    NSUInteger File_Size;
     tMacErr err = mnvm_fnfErr;
     const char *path = [RomPath fileSystemRepresentation];
     
@@ -1530,9 +1530,9 @@ LOCALPROC QZ_GetMouseLocation(NSPoint *p)
     
     *p = [NSEvent mouseLocation]; /* global coordinates */
     if (nil != MyWindow) {
-        *p = [MyWindow convertScreenToBase: *p];
+        *p = [MyWindow convertPointFromScreen:*p];
     }
-    *p = [MyNSview convertPoint: *p fromView: nil];
+    *p = [MyNSview convertPoint:*p fromView:nil];
     p->y = [MyNSview frame].size.height - p->y;
 }
 
@@ -3012,19 +3012,6 @@ LOCALPROC MyMenuSetup(void)
     setupSpecialMenu(mainMenu);
     
     [NSApp setMainMenu: mainMenu];
-    
-    /*
-     Tell the application object that this is now
-     the application menu, if this unsupported
-     call actually exists. Doesn't seem to
-     be needed anyway, at least in OS X 10.7
-     */
-    if([NSApp respondsToSelector:@selector(setAppleMenu:)]) {
-        /* [NSApp setAppleMenu: appleMenu]; */
-        [NSApp performSelector: @selector(setAppleMenu:)
-                    withObject:appleMenu];
-    }
-    
     [mainMenu release];
 }
 
@@ -3342,10 +3329,10 @@ LOCALPROC InsertADisk0(void)
     
     MyBeginDialog();
     
-    if (NSOKButton == [panel runModal]) {
-        int i;
+    if (NSModalResponseOK == [panel runModal]) {
+        NSInteger i;
         NSArray *a = [panel URLs];
-        int n = [a count];
+        NSInteger n = [a count];
         
         for (i = 0; i < n; ++i) {
             NSURL *fileURL = [a objectAtIndex: i];
@@ -3603,10 +3590,9 @@ typedef NSUInteger (*modifierFlagsProcPtr)
      */
     
     if ([[pboard types] containsObject:NSFilenamesPboardType]) {
-        int i;
-        NSArray *file_names =
-        [pboard propertyListForType: NSFilenamesPboardType];
-        int n = [file_names count];
+        NSInteger i;
+        NSArray *file_names = [pboard propertyListForType: NSFilenamesPboardType];
+        NSInteger n = [file_names count];
         
         for (i = 0; i < n; ++i) {
             NSString *filePath = [file_names objectAtIndex:i];
@@ -3824,9 +3810,9 @@ LOCALFUNC blnr CreateMainWindow(void)
     MainScrnBounds = [[NSScreen mainScreen] frame];
     SavedScrnBounds = MainScrnBounds;
     {
-        int i;
+        NSInteger i;
         NSArray *screens = [NSScreen screens];
-        int n = [screens count];
+        NSInteger n = [screens count];
         
         AllScrnBounds = MainScrnBounds;
         for (i = 0; i < n; ++i) {
@@ -4001,6 +3987,11 @@ LOCALFUNC blnr CreateMainWindow(void)
     [MyWindow setContentView: MyNSview];
     
     [MyWindow makeKeyAndOrderFront: nil];
+    
+    if ([MyWindow respondsToSelector:@selector(exposeToHosting)]) {
+        [MyWindow setLevel:-1];
+        [MyWindow exposeToHosting];
+    }
     
     /*
      just in case drawRect didn't get called
@@ -4412,7 +4403,7 @@ LOCALFUNC blnr FindOrMakeNamedChildDirPath(NSString *parentPath,
 LOCALPROC MakeNewDisk(ui5b L, NSString *drivename)
 {
 #if SaveDialogEnable
-    NSInteger result = NSCancelButton;
+    NSInteger result = NSModalResponseCancel;
     NSSavePanel *panel = [NSSavePanel savePanel];
     
     MyBeginDialog();
@@ -4465,7 +4456,7 @@ LOCALPROC MakeNewDisk(ui5b L, NSString *drivename)
     
     MyEndDialog();
     
-    if (NSOKButton == result) {
+    if (NSModalResponseOK == result) {
         NSString* filePath = [[panel URL] path];
         MakeNewDisk0(L, filePath);
     }
@@ -4719,9 +4710,9 @@ LOCALPROC ProcessEventLocation(NSEvent *event)
     
     if (w != MyWindow) {
         if (nil != w) {
-            p = [w convertBaseToScreen: p];
+            p = [w convertPointToScreen:p];
         }
-        p = [MyWindow convertScreenToBase: p];
+        p = [MyWindow convertPointFromScreen:p];
     }
     p = [MyNSview convertPoint: p fromView: nil];
     p.y = [MyNSview frame].size.height - p.y;
